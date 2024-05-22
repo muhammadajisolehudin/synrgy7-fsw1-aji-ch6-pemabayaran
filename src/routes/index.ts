@@ -1,9 +1,9 @@
 import { Router } from 'express';
-import carsRoutes from './api/carRouter';
+// import carsRoutes from './api/carRouter';
 
 const router = Router();
 
-router.use(carsRoutes);
+// router.use(carsRoutes);
 
 
 export default router;
