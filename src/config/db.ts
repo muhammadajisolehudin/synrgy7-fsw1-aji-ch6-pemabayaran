@@ -4,7 +4,7 @@ import { Model } from 'objection';
 const knexInstance = Knex({
   client: 'pg',
   connection: {
-    database: 'ch5_bcr',
+    database: 'db_payment',
     user: 'postgres',
     password: '020402',
   },
