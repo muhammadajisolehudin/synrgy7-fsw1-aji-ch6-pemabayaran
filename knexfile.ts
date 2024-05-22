@@ -4,23 +4,22 @@ import type { Knex } from "knex";
 
 const config: { [key: string]: Knex.Config } = {
   development: {
-     client: "pg",
+    client: "pg",
     connection: {
       user: "postgres",
-      password: "020402",
+      password: "ditobayu25",
       port: 5432,
       host: "127.0.0.1",
-      database: "ch5_bcr"
+      database: "ch5_bcr",
     },
 
     migrations: {
-      directory: __dirname + '/src/migrations',
+      directory: __dirname + "/src/migrations",
     },
     seeds: {
-      directory: __dirname + '/src/seeds', 
+      directory: __dirname + "/src/seeds",
     },
   },
-
 };
 
 module.exports = config;
