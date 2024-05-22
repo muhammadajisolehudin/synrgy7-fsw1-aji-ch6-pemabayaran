@@ -36,4 +36,4 @@ export class BillDetailModel extends Model {
   }
 }
 
-export type Users = ModelObject<BillDetailModel>;
+export type BillDetails = ModelObject<BillDetailModel>;
