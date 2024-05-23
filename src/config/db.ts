@@ -1,12 +1,12 @@
-import Knex from "knex";
-import { Model } from "objection";
+import Knex from 'knex';
+import { Model } from 'objection';
 
 const knexInstance = Knex({
-  client: "pg",
+  client: 'pg',
   connection: {
-    database: "db_payment",
-    user: "postgres",
-    password: "ditobayu25",
+    database: 'db_payment',
+    user: 'postgres',
+    password: '020402',
   },
 });
 

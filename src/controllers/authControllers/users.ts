@@ -1,5 +1,5 @@
 import { Request, Response } from 'express'
-import { UserModel } from "../models/user";
+import { UserModel } from "../../models/user";
 const jwt = require("jsonwebtoken");
 const { JWT_SECRET_KEY = 'secret' } = process.env;
 
